@@ -34,6 +34,8 @@ def main():
         else:
             destination.mkdir()
             git(destination, 'init', '--quiet')
+            # Integrity locks describe upstream bytes, including LF line endings.
+            git(destination, 'config', 'core.autocrlf', 'false')
             git(destination, 'remote', 'add', 'origin', entry['repository'])
             git(destination, 'fetch', '--depth', '1', 'origin', entry['commit'])
             git(destination, 'checkout', '--detach', '--quiet', 'FETCH_HEAD')
