@@ -1,0 +1,30 @@
+robot:
+  vendor: zhidongweilai
+  model: s2
+  base_type: wheeled
+  ros_distro: jazzy
+
+safety:
+  direct_cmd_vel_from_brain: false
+  require_confirmation_for_motion: true
+  allowed_motion_entrypoints:
+    - navigate_to_waypoint
+    - save_waypoint
+    - stop_navigation
+
+ros2:
+  workspace_setup: /opt/seva/ros2_ws/install/setup.bash
+  navigate_service: /navigate_to_waypoint
+  save_waypoint_service: /save_waypoint
+  list_waypoints_service: /list_waypoints
+  stop_topic: /topic_gv_target_cmd_vel_0_283
+
+capabilities:
+  - name: navigation
+    backend: ros2_service
+  - name: waypoint_management
+    backend: ros2_service
+  - name: arm_presets
+    backend: configured_shell_commands
+  - name: local_asr
+    backend: whisper_cpp

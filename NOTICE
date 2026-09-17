@@ -1,0 +1,10 @@
+SEVA: Semantic Exploration with Verified Actions
+Copyright 2026 SEVA contributors
+
+This source release contains the SEVA integration and adapter code.
+The original Python package and ROS interface names are retained for compatibility.
+
+Third-party algorithms are downloaded separately from their original repositories.
+They retain their own copyrights and license terms. See THIRD_PARTY.md and
+dependencies/sources.lock.json. The repository license does not relicense those
+dependencies, robot vendor SDKs, model weights, or services.

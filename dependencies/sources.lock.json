@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "name": "bumble",
+      "repository": "https://github.com/UT-Austin-RobIn/BUMBLE",
+      "commit": "4ff5ac0d8475b233179ad71bda82cddbb568f5af",
+      "license": "No explicit license found at this revision; obtain terms from upstream",
+      "group": "gateway"
+    },
+    {
+      "name": "physmem",
+      "repository": "https://github.com/haoyangli16/PhysMem",
+      "commit": "bb2b9bbf0c9561e5e1279437cce154419edc8007",
+      "license": "MIT declared in upstream pyproject.toml; no standalone LICENSE at this revision",
+      "group": "gateway"
+    },
+    {
+      "name": "reflect",
+      "repository": "https://github.com/real-stanford/reflect",
+      "commit": "0ac7458735fba606151df851491124486dc8b489",
+      "license": "MIT",
+      "group": "gateway"
+    },
+    {
+      "name": "robotlimp",
+      "repository": "https://github.com/benedictquartey/robotlimp",
+      "commit": "28d2e5b260ff52de7c7ae6a108284d5dfa5b4d28",
+      "license": "MIT",
+      "group": "gateway"
+    },
+    {
+      "name": "stretch_ai",
+      "repository": "https://github.com/hello-robot/stretch_ai",
+      "commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+      "license": "Apache-2.0",
+      "group": "gateway"
+    },
+    {
+      "name": "frontier-exploration-ros2-20260914",
+      "repository": "https://github.com/mertgulerx/frontier_exploration_ros2",
+      "commit": "ec530d2a813739cd25dd0c438d2365c510b9fad8",
+      "license": "Apache-2.0",
+      "group": "exploration"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "stretch_ai/src/stretch/core/task.py": "1e83165e1e7f1984ca6b818cf8fea3c46e910abdee469f6cd57b4e622fc68ac2",
+  "robotlimp/limp/language/temporal_logic/ltl_progression.py": "fa159e09057320a1ebdd04b2890df0abbc918386b2a4b00d895d797616950726",
+  "bumble/bumble/tiago/skills/selector.py": "18c5f603c0812a78e77e6de52ed5bcbf0b4282b88a63b2c8dfdf1f7ff75a23dd",
+  "reflect/main/exp.py": "d318b09630b58cc91e39bb62c97c3606089cbe1ea92e28c8d4512e3394d934cc",
+  "reflect/main/utils.py": "967ad5638804ab72c97db3f6aa52fba2fd71646d4f12c03ac8d8decf8cb476c1",
+  "reflect/LLM/prompts.json": "1b532a395196382522e554d1069c55c2b1ea84169ce9c099f5bbdc33e00a26f2"
+}
